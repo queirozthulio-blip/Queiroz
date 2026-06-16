@@ -1,0 +1,125 @@
+/*config*/
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav a {
+    color: #ff5733;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+/* Estilos de Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Estilos de Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select, button {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #ff5733;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #d44727;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #111;
+    color: #aaa;
+    position: relative;
+    margin-top: 40px;
+}
+.form-erro {
+    color: #ff3333;
+    background-color: #ffe6e6;
+    padding: 10px;
+    border-left: 4px solid #ff3333;
+    margin: 10px 0;
+    font-size: 0.9rem;
+    border-radius: 4px;
+}
+
+.form-sucesso {
+    color: #155724;
+    background-color: #d4edda;
+    padding: 12px;
+    border-left: 4px solid #28a745;
+    margin: 10px 0;
+    font-size: 0.95rem;
+    border-radius: 4px;
+    line-height: 1.4;
+}
+
+/* Oculta os parágrafos quando estiverem vazios */
+.form-erro:empty, .form-sucesso:empty {
+    display: none;
+}
